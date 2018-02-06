@@ -38,8 +38,7 @@ class signUpViewController: UIViewController, UITextFieldDelegate {
     }
     
     @IBAction func registerBtnTapped(_ sender: Any) {
-        self.OTPScreen()
-/*
+        
         if (NameTF.text == "" || EmailTF.text == "" || MobileNoTF.text == "" || PasswordTF.text == "" || AadhaarTF.text == "" || AddressTF.text == "" || PinCodeTF.text == "") {
             let alertController = UIAlertController(title: "Mandatory", message: "Please check wether all the fields filled ??", preferredStyle: .alert)
             
@@ -64,7 +63,7 @@ class signUpViewController: UIViewController, UITextFieldDelegate {
                 }
             })
         }
- */
+ 
     }
     
     func OTPScreen() {
