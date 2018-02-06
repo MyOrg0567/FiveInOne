@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8402A805201DFB480032DADC /* FIOProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8402A804201DFB480032DADC /* FIOProgressView.swift */; };
+		841358D4200B0E2400500EA9 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 841358CA200B0E1400500EA9 /* OpenSans-Regular.ttf */; };
+		841358D5200B0E2400500EA9 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 841358CB200B0E1600500EA9 /* OpenSans-Italic.ttf */; };
+		841358D6200B0E2400500EA9 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 841358CC200B0E1700500EA9 /* OpenSans-LightItalic.ttf */; };
+		841358D7200B0E2400500EA9 /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 841358CD200B0E1900500EA9 /* OpenSans-SemiboldItalic.ttf */; };
+		841358D8200B0E2400500EA9 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 841358CE200B0E1A00500EA9 /* OpenSans-Bold.ttf */; };
+		841358D9200B0E2400500EA9 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 841358CF200B0E1B00500EA9 /* OpenSans-ExtraBoldItalic.ttf */; };
+		841358DA200B0E2400500EA9 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 841358D0200B0E1D00500EA9 /* OpenSans-ExtraBold.ttf */; };
+		841358DB200B0E2400500EA9 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 841358D1200B0E1F00500EA9 /* OpenSans-BoldItalic.ttf */; };
+		841358DC200B0E2400500EA9 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 841358D2200B0E2000500EA9 /* OpenSans-Semibold.ttf */; };
+		841358DD200B0E2400500EA9 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 841358D3200B0E2200500EA9 /* OpenSans-Light.ttf */; };
+		84207EFC20121E4B007CCD8E /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84207EFB20121E4B007CCD8E /* PopUpViewController.swift */; };
+		842147102010C96A00DD61B3 /* InterestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8421470F2010C96A00DD61B3 /* InterestCollectionViewCell.swift */; };
+		842147182010C9F800DD61B3 /* Interest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842147172010C9F800DD61B3 /* Interest.swift */; };
+		8424965F20086C5000EBB189 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424965720086C4D00EBB189 /* loginViewController.swift */; };
+		8424966020086C5000EBB189 /* recoverPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424965820086C4E00EBB189 /* recoverPasswordViewController.swift */; };
+		8424966120086C5000EBB189 /* lastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424965920086C4F00EBB189 /* lastViewController.swift */; };
+		8424966220086C5000EBB189 /* firstPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424965A20086C4F00EBB189 /* firstPageViewController.swift */; };
+		8424966320086C5000EBB189 /* NewPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424965B20086C4F00EBB189 /* NewPasswordViewController.swift */; };
+		8424966420086C5000EBB189 /* authPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424965C20086C4F00EBB189 /* authPasswordViewController.swift */; };
+		8424966520086C5000EBB189 /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424965D20086C5000EBB189 /* signUpViewController.swift */; };
+		8424966620086C5000EBB189 /* languageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424965E20086C5000EBB189 /* languageViewController.swift */; };
+		8440E44C2011C2630063E3D2 /* InterestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440E44B2011C2620063E3D2 /* InterestViewController.swift */; };
+		8455C2DC2004890300821EF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8455C2DB2004890300821EF0 /* AppDelegate.swift */; };
+		8455C2E12004890300821EF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8455C2DF2004890300821EF0 /* Main.storyboard */; };
+		8455C2E42004890300821EF0 /* FiveInOne.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8455C2E22004890300821EF0 /* FiveInOne.xcdatamodeld */; };
+		8455C2E62004890300821EF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8455C2E52004890300821EF0 /* Assets.xcassets */; };
+		8455C2E92004890300821EF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8455C2E72004890300821EF0 /* LaunchScreen.storyboard */; };
+		8455C2F42004890300821EF0 /* FiveInOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8455C2F32004890300821EF0 /* FiveInOneTests.swift */; };
+		8455C2FF2004890300821EF0 /* FiveInOneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8455C2FE2004890300821EF0 /* FiveInOneUITests.swift */; };
+		845ADC3320184EDB00F17C21 /* PetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845ADC3220184EDB00F17C21 /* PetsViewController.swift */; };
+		8462C44A2019E40500F5038A /* ServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8462C4492019E40500F5038A /* ServiceViewController.swift */; };
+		8469734C200888A4002CE13A /* ServiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8469734B200888A4002CE13A /* ServiceModel.swift */; };
+		84701FD820173A400057B217 /* CropsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84701FD720173A400057B217 /* CropsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8455C2F02004890300821EF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8455C2D02004890200821EF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8455C2D72004890300821EF0;
+			remoteInfo = FiveInOne;
+		};
+		8455C2FB2004890300821EF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8455C2D02004890200821EF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8455C2D72004890300821EF0;
+			remoteInfo = FiveInOne;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8402A804201DFB480032DADC /* FIOProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIOProgressView.swift; sourceTree = "<group>"; };
+		841358CA200B0E1400500EA9 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		841358CB200B0E1600500EA9 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		841358CC200B0E1700500EA9 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		841358CD200B0E1900500EA9 /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		841358CE200B0E1A00500EA9 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		841358CF200B0E1B00500EA9 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		841358D0200B0E1D00500EA9 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		841358D1200B0E1F00500EA9 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		841358D2200B0E2000500EA9 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		841358D3200B0E2200500EA9 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		84207EFB20121E4B007CCD8E /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		8421470F2010C96A00DD61B3 /* InterestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestCollectionViewCell.swift; sourceTree = "<group>"; };
+		842147172010C9F800DD61B3 /* Interest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interest.swift; sourceTree = "<group>"; };
+		8424965720086C4D00EBB189 /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		8424965820086C4E00EBB189 /* recoverPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = recoverPasswordViewController.swift; sourceTree = "<group>"; };
+		8424965920086C4F00EBB189 /* lastViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = lastViewController.swift; sourceTree = "<group>"; };
+		8424965A20086C4F00EBB189 /* firstPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = firstPageViewController.swift; sourceTree = "<group>"; };
+		8424965B20086C4F00EBB189 /* NewPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPasswordViewController.swift; sourceTree = "<group>"; };
+		8424965C20086C4F00EBB189 /* authPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = authPasswordViewController.swift; sourceTree = "<group>"; };
+		8424965D20086C5000EBB189 /* signUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
+		8424965E20086C5000EBB189 /* languageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = languageViewController.swift; sourceTree = "<group>"; };
+		8440E44B2011C2620063E3D2 /* InterestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestViewController.swift; sourceTree = "<group>"; };
+		8455C2D82004890300821EF0 /* FiveInOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FiveInOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8455C2DB2004890300821EF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8455C2E02004890300821EF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8455C2E32004890300821EF0 /* FiveInOne.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FiveInOne.xcdatamodel; sourceTree = "<group>"; };
+		8455C2E52004890300821EF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8455C2E82004890300821EF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8455C2EA2004890300821EF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8455C2EF2004890300821EF0 /* FiveInOneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FiveInOneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8455C2F32004890300821EF0 /* FiveInOneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveInOneTests.swift; sourceTree = "<group>"; };
+		8455C2F52004890300821EF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8455C2FA2004890300821EF0 /* FiveInOneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FiveInOneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8455C2FE2004890300821EF0 /* FiveInOneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveInOneUITests.swift; sourceTree = "<group>"; };
+		8455C3002004890300821EF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845ADC3220184EDB00F17C21 /* PetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsViewController.swift; sourceTree = "<group>"; };
+		8462C4492019E40500F5038A /* ServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceViewController.swift; sourceTree = "<group>"; };
+		8469734B200888A4002CE13A /* ServiceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceModel.swift; sourceTree = "<group>"; };
+		84701FD720173A400057B217 /* CropsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8455C2D52004890300821EF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8455C2EC2004890300821EF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8455C2F72004890300821EF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8402A807201DFB5C0032DADC /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				8469734B200888A4002CE13A /* ServiceModel.swift */,
+				8402A804201DFB480032DADC /* FIOProgressView.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		8402A808201E0F240032DADC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8424965A20086C4F00EBB189 /* firstPageViewController.swift */,
+				8424965720086C4D00EBB189 /* loginViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		8402A809201E0F640032DADC /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				8424965D20086C5000EBB189 /* signUpViewController.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		841358C9200B0DF800500EA9 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				841358CE200B0E1A00500EA9 /* OpenSans-Bold.ttf */,
+				841358D1200B0E1F00500EA9 /* OpenSans-BoldItalic.ttf */,
+				841358D0200B0E1D00500EA9 /* OpenSans-ExtraBold.ttf */,
+				841358CF200B0E1B00500EA9 /* OpenSans-ExtraBoldItalic.ttf */,
+				841358CB200B0E1600500EA9 /* OpenSans-Italic.ttf */,
+				841358D3200B0E2200500EA9 /* OpenSans-Light.ttf */,
+				841358CC200B0E1700500EA9 /* OpenSans-LightItalic.ttf */,
+				841358CA200B0E1400500EA9 /* OpenSans-Regular.ttf */,
+				841358D2200B0E2000500EA9 /* OpenSans-Semibold.ttf */,
+				841358CD200B0E1900500EA9 /* OpenSans-SemiboldItalic.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		8455C2CF2004890200821EF0 = {
+			isa = PBXGroup;
+			children = (
+				8455C2DA2004890300821EF0 /* FiveInOne */,
+				8455C2F22004890300821EF0 /* FiveInOneTests */,
+				8455C2FD2004890300821EF0 /* FiveInOneUITests */,
+				8455C2D92004890300821EF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8455C2D92004890300821EF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8455C2D82004890300821EF0 /* FiveInOne.app */,
+				8455C2EF2004890300821EF0 /* FiveInOneTests.xctest */,
+				8455C2FA2004890300821EF0 /* FiveInOneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8455C2DA2004890300821EF0 /* FiveInOne */ = {
+			isa = PBXGroup;
+			children = (
+				841358C9200B0DF800500EA9 /* Font */,
+				8402A807201DFB5C0032DADC /* Utility */,
+				8402A808201E0F240032DADC /* Login */,
+				8402A809201E0F640032DADC /* SignUp */,
+				8455C2DB2004890300821EF0 /* AppDelegate.swift */,
+				8424965C20086C4F00EBB189 /* authPasswordViewController.swift */,
+				8424965E20086C5000EBB189 /* languageViewController.swift */,
+				8424965920086C4F00EBB189 /* lastViewController.swift */,
+				8424965B20086C4F00EBB189 /* NewPasswordViewController.swift */,
+				8424965820086C4E00EBB189 /* recoverPasswordViewController.swift */,
+				84701FD720173A400057B217 /* CropsViewController.swift */,
+				845ADC3220184EDB00F17C21 /* PetsViewController.swift */,
+				8462C4492019E40500F5038A /* ServiceViewController.swift */,
+				8440E44B2011C2620063E3D2 /* InterestViewController.swift */,
+				8421470F2010C96A00DD61B3 /* InterestCollectionViewCell.swift */,
+				842147172010C9F800DD61B3 /* Interest.swift */,
+				84207EFB20121E4B007CCD8E /* PopUpViewController.swift */,
+				8455C2DF2004890300821EF0 /* Main.storyboard */,
+				8455C2E52004890300821EF0 /* Assets.xcassets */,
+				8455C2E72004890300821EF0 /* LaunchScreen.storyboard */,
+				8455C2EA2004890300821EF0 /* Info.plist */,
+				8455C2E22004890300821EF0 /* FiveInOne.xcdatamodeld */,
+			);
+			path = FiveInOne;
+			sourceTree = "<group>";
+		};
+		8455C2F22004890300821EF0 /* FiveInOneTests */ = {
+			isa = PBXGroup;
+			children = (
+				8455C2F32004890300821EF0 /* FiveInOneTests.swift */,
+				8455C2F52004890300821EF0 /* Info.plist */,
+			);
+			path = FiveInOneTests;
+			sourceTree = "<group>";
+		};
+		8455C2FD2004890300821EF0 /* FiveInOneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8455C2FE2004890300821EF0 /* FiveInOneUITests.swift */,
+				8455C3002004890300821EF0 /* Info.plist */,
+			);
+			path = FiveInOneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8455C2D72004890300821EF0 /* FiveInOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8455C3032004890300821EF0 /* Build configuration list for PBXNativeTarget "FiveInOne" */;
+			buildPhases = (
+				8455C2D42004890300821EF0 /* Sources */,
+				8455C2D52004890300821EF0 /* Frameworks */,
+				8455C2D62004890300821EF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FiveInOne;
+			productName = FiveInOne;
+			productReference = 8455C2D82004890300821EF0 /* FiveInOne.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8455C2EE2004890300821EF0 /* FiveInOneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8455C3062004890300821EF0 /* Build configuration list for PBXNativeTarget "FiveInOneTests" */;
+			buildPhases = (
+				8455C2EB2004890300821EF0 /* Sources */,
+				8455C2EC2004890300821EF0 /* Frameworks */,
+				8455C2ED2004890300821EF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8455C2F12004890300821EF0 /* PBXTargetDependency */,
+			);
+			name = FiveInOneTests;
+			productName = FiveInOneTests;
+			productReference = 8455C2EF2004890300821EF0 /* FiveInOneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8455C2F92004890300821EF0 /* FiveInOneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8455C3092004890300821EF0 /* Build configuration list for PBXNativeTarget "FiveInOneUITests" */;
+			buildPhases = (
+				8455C2F62004890300821EF0 /* Sources */,
+				8455C2F72004890300821EF0 /* Frameworks */,
+				8455C2F82004890300821EF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8455C2FC2004890300821EF0 /* PBXTargetDependency */,
+			);
+			name = FiveInOneUITests;
+			productName = FiveInOneUITests;
+			productReference = 8455C2FA2004890300821EF0 /* FiveInOneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8455C2D02004890200821EF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Charan Raj";
+				TargetAttributes = {
+					8455C2D72004890300821EF0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					8455C2EE2004890300821EF0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8455C2D72004890300821EF0;
+					};
+					8455C2F92004890300821EF0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8455C2D72004890300821EF0;
+					};
+				};
+			};
+			buildConfigurationList = 8455C2D32004890200821EF0 /* Build configuration list for PBXProject "FiveInOne" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8455C2CF2004890200821EF0;
+			productRefGroup = 8455C2D92004890300821EF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8455C2D72004890300821EF0 /* FiveInOne */,
+				8455C2EE2004890300821EF0 /* FiveInOneTests */,
+				8455C2F92004890300821EF0 /* FiveInOneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8455C2D62004890300821EF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841358DD200B0E2400500EA9 /* OpenSans-Light.ttf in Resources */,
+				841358DC200B0E2400500EA9 /* OpenSans-Semibold.ttf in Resources */,
+				8455C2E92004890300821EF0 /* LaunchScreen.storyboard in Resources */,
+				841358D9200B0E2400500EA9 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				8455C2E62004890300821EF0 /* Assets.xcassets in Resources */,
+				841358DB200B0E2400500EA9 /* OpenSans-BoldItalic.ttf in Resources */,
+				841358D8200B0E2400500EA9 /* OpenSans-Bold.ttf in Resources */,
+				841358D6200B0E2400500EA9 /* OpenSans-LightItalic.ttf in Resources */,
+				841358D7200B0E2400500EA9 /* OpenSans-SemiboldItalic.ttf in Resources */,
+				841358D4200B0E2400500EA9 /* OpenSans-Regular.ttf in Resources */,
+				841358D5200B0E2400500EA9 /* OpenSans-Italic.ttf in Resources */,
+				8455C2E12004890300821EF0 /* Main.storyboard in Resources */,
+				841358DA200B0E2400500EA9 /* OpenSans-ExtraBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8455C2ED2004890300821EF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8455C2F82004890300821EF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8455C2D42004890300821EF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842147102010C96A00DD61B3 /* InterestCollectionViewCell.swift in Sources */,
+				8424966520086C5000EBB189 /* signUpViewController.swift in Sources */,
+				8424966120086C5000EBB189 /* lastViewController.swift in Sources */,
+				8440E44C2011C2630063E3D2 /* InterestViewController.swift in Sources */,
+				8402A805201DFB480032DADC /* FIOProgressView.swift in Sources */,
+				8424966620086C5000EBB189 /* languageViewController.swift in Sources */,
+				8424966020086C5000EBB189 /* recoverPasswordViewController.swift in Sources */,
+				8424965F20086C5000EBB189 /* loginViewController.swift in Sources */,
+				842147182010C9F800DD61B3 /* Interest.swift in Sources */,
+				8462C44A2019E40500F5038A /* ServiceViewController.swift in Sources */,
+				8424966420086C5000EBB189 /* authPasswordViewController.swift in Sources */,
+				845ADC3320184EDB00F17C21 /* PetsViewController.swift in Sources */,
+				8469734C200888A4002CE13A /* ServiceModel.swift in Sources */,
+				84701FD820173A400057B217 /* CropsViewController.swift in Sources */,
+				84207EFC20121E4B007CCD8E /* PopUpViewController.swift in Sources */,
+				8424966220086C5000EBB189 /* firstPageViewController.swift in Sources */,
+				8455C2E42004890300821EF0 /* FiveInOne.xcdatamodeld in Sources */,
+				8424966320086C5000EBB189 /* NewPasswordViewController.swift in Sources */,
+				8455C2DC2004890300821EF0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8455C2EB2004890300821EF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8455C2F42004890300821EF0 /* FiveInOneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8455C2F62004890300821EF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8455C2FF2004890300821EF0 /* FiveInOneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8455C2F12004890300821EF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8455C2D72004890300821EF0 /* FiveInOne */;
+			targetProxy = 8455C2F02004890300821EF0 /* PBXContainerItemProxy */;
+		};
+		8455C2FC2004890300821EF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8455C2D72004890300821EF0 /* FiveInOne */;
+			targetProxy = 8455C2FB2004890300821EF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8455C2DF2004890300821EF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8455C2E02004890300821EF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8455C2E72004890300821EF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8455C2E82004890300821EF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8455C3012004890300821EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8455C3022004890300821EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8455C3042004890300821EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SM3LNW3FF2;
+				INFOPLIST_FILE = FiveInOne/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "E-E.FiveInOne";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8455C3052004890300821EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SM3LNW3FF2;
+				INFOPLIST_FILE = FiveInOne/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "E-E.FiveInOne";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8455C3072004890300821EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FiveInOneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "E-E.FiveInOneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FiveInOne.app/FiveInOne";
+			};
+			name = Debug;
+		};
+		8455C3082004890300821EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FiveInOneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "E-E.FiveInOneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FiveInOne.app/FiveInOne";
+			};
+			name = Release;
+		};
+		8455C30A2004890300821EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FiveInOneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "E-E.FiveInOneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FiveInOne;
+			};
+			name = Debug;
+		};
+		8455C30B2004890300821EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FiveInOneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "E-E.FiveInOneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FiveInOne;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8455C2D32004890200821EF0 /* Build configuration list for PBXProject "FiveInOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8455C3012004890300821EF0 /* Debug */,
+				8455C3022004890300821EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8455C3032004890300821EF0 /* Build configuration list for PBXNativeTarget "FiveInOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8455C3042004890300821EF0 /* Debug */,
+				8455C3052004890300821EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8455C3062004890300821EF0 /* Build configuration list for PBXNativeTarget "FiveInOneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8455C3072004890300821EF0 /* Debug */,
+				8455C3082004890300821EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8455C3092004890300821EF0 /* Build configuration list for PBXNativeTarget "FiveInOneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8455C30A2004890300821EF0 /* Debug */,
+				8455C30B2004890300821EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8455C2E22004890300821EF0 /* FiveInOne.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8455C2E32004890300821EF0 /* FiveInOne.xcdatamodel */,
+			);
+			currentVersion = 8455C2E32004890300821EF0 /* FiveInOne.xcdatamodel */;
+			path = FiveInOne.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8455C2D02004890200821EF0 /* Project object */;
+}
